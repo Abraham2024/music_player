@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>hairs</title>
-	<link rel = "stylesheet" href ="style.css">
-    <link rel ="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>KENORA HAIRS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel ="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <head>
       <body>
     <div class = "head">
@@ -69,14 +66,16 @@
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
+
   <div id="popup">
     <h2 class = "promo">Sales Discount!</h2>
     <p class = "discount">Get 10% off on all products </p>
     <button class= "butt"><a href="tel:09054525949" class = "number">Place your orders!</button>
-  
-    <a href="#" id="close">Close</a>
+    <a href="#" id="close">Close</a>    
   </div>
-  <section class="products">
+  <button id="show-popup">Click here for discount!</button>
+
+  <div class="BestSellers">
 		<h2>Best sellers</h2>
 		<div class="product-item">
 			<img src= "images/sell1.jpeg" class="first">
@@ -108,16 +107,15 @@
 			<p>Lorem ipsum dolor sit amet</p>
 				<button data-price="10.99">Add to Cart</button>
 		</div>
-    
+  
 			<div class="product-item">
         <img src="https://canary.contestimg.wish.com/api/webimage/5da831f4fb75b90071f132fb-large.jpg?cache_buster=a28ba85e29537f49fde2fa8d275b0cde">
         <h3>Product 3</h3>
         <p>Lorem ipsum dolor sit amet</p>
           <button data-price="10.99">Add to Cart</button>
       </div>
-  </section>
 
-  <button id="show-popup">Click here for discount!</button>
+	</div>
 	  <script src = "script.js"> 
     </script>
 </body>
