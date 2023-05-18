@@ -1,18 +1,14 @@
 body{
 	background-color: whitesmoke;
-	box-sizing: border-box;
 	width: 100%;
-	margin-right: 0%;
-	margin-right: 0%;
 	margin: 0%;
-	overflow: hidden;
+	overflow: scroll;
   }
   /* Slideshow container */
   .slideshow-container {
 	position: relative;
 	margin: 0;
 	width: 100%;
-	background-position: 0%;
 	overflow-x: hidden;
   }
   .img {
@@ -103,6 +99,7 @@ body{
 	  overflow:hidden;
 	  margin: auto;
 	  width: 100%;
+	  height: 100%;
   }
 
   .product-item {
@@ -112,12 +109,12 @@ body{
 	  overflow: auto;
   }
   .first{
-	margin: 5px;
+	width: 100%;
+	height: 100%;
   }
   .product-item img {
-	  width: 200px;
-	  height: 300px;
-	  object-fit: cover;
+	  width: 100%;
+	  height: 100%;
   }
   
   .product-item h3 {
@@ -148,9 +145,9 @@ body{
 	width: 100%;
 	text-align: center;
   }
-  .images{
+  .images {
+	width: 100%;
 	height: 500px;
-	box-sizing: border-box;
 }
   /* Number text (1/3 etc) */
   .numbertext {
@@ -210,7 +207,17 @@ body{
 	.BestSellers{
 		overflow: auto;
 		white-space: nowrap;
-		padding: 10px;
+		padding: 2px
+	}
+	.NewArrivals{
+		overflow: auto;
+		white-space: nowrap;
+		padding: 2px;
+	}
+	.wigs{
+		overflow: auto;
+		white-space: nowrap;
+		padding: 2px;
 	}
   .sign{
 	text-align:end;
@@ -252,7 +259,7 @@ body{
 	font-style: oblique;
   }
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 600px) {
 	.topnav a:not(:first-child) {display: none;}
 	.topnav a.icon {
 	  float: right;
@@ -260,7 +267,7 @@ body{
 	}
   }
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 600px) {
 	.topnav.responsive {position: relative;}
 	.topnav.responsive .icon {
 	  position: absolute;
@@ -277,9 +284,23 @@ body{
 	.topnav .active{
 	  float: left; 
 	}
+	.BestSellers{
+		color: black;
+		margin-top: 0%;
+	}
 	.text{
-	  margin-left: 10px;
+		font-size: small;
+		float: left;
+		text-align: start;
+		margin-left: 12px;
+		margin-bottom: 0%;
+		width: fit-content;
 	  color: burlywood;
+	}
+	.log{
+		float: right;
+		max-width: none;
+		margin-right: 0%;
 	}
 	
 	.products {
@@ -291,28 +312,42 @@ body{
 	
 	.product-item {
 	  display: inline-block;
-	  margin-right: 20px;
+	  margin-right: 5px;
 	  vertical-align: top;
 	  overflow: auto;
+	  margin-bottom: 0%;
+	  margin-left: 0%;
 	}
 	.first{
-		display: flex;
-		flex-direction: column;
-	  margin-left: 0px;
-	  width: 5px;
-	  border-radius: 200px;
+	  margin-right: 0%;
+	  margin-right: 0%;
+	  border-radius: 10px;
 	}
 	.product-item img {
-	  height: 300px;
-	  object-fit: cover;
+	  height: 150px;
+	  width: 150px;
+	  margin: 0%;
+	  margin-right: 0%;
+	  justify-content: left;
+	  image-orientation: from-image;
 	}
 	
 	.product-item h3 {
 	  margin: 10px 0;
+	  color: #717171;
 	}
 	
 	.product-item p {
 	  font-size: 14px;
 	  line-height: 1.5;
+	  color: black;
 	}
-  
+	body{
+		width: 100%;
+		overflow: auto;
+		background-color: aliceblue;
+	}  
+	.images{
+		width: 100px;
+		height: 150px;
+	}
