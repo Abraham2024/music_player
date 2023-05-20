@@ -215,6 +215,10 @@ body{
 	text-transform: capitalize;
 	font-style: italic;
   }
+  .video{
+	height: 150px;
+	width: 100%;
+  }
   /*for scrolling images */
 	.BestSellers{
 		overflow: auto;
@@ -226,11 +230,7 @@ body{
 		white-space: nowrap;
 		padding: 2px;
 	}
-	.wigs{
-		overflow: auto;
-		white-space: nowrap;
-		padding: 2px;
-	}
+	
   .sign{
 	text-align:end;
 	margin-right: 20px;
@@ -270,6 +270,7 @@ body{
 	font-size: larger;
 	font-style: oblique;
   }
+
   
   @media screen and (max-width: 600px) {
 	.topnav a:not(:first-child) {display: none;}
@@ -362,4 +363,19 @@ body{
 	.images{
 		width: 100px;
 		height: 150px;
+	}
+	.wigs{
+		overflow: auto;
+		white-space: nowrap;
+		padding: 2px;
+	}
+	.hairs{
+		overflow: auto;
+		white-space:nowrap;
+		padding: 2px;
+	}
+	.morehair{
+		overflow: auto;
+		white-space: nowrap;
+		padding: 2px;
 	}
