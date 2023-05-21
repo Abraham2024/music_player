@@ -204,6 +204,18 @@ p.text1 {
 .message{
     margin: 10px;
 }
+.socials{
+	background-color: rgb(174, 240, 21);
+}
+.media{
+	color: red;
+	text-transform: capitalize;
+}
+.review{
+	padding: 10px;
+	text-transform: uppercase;
+	display: none;
+}
 .topnav .tag {
 	color: yellowgreen;
 	text-decoration: solid;
