@@ -90,10 +90,10 @@ input[ type=email] {
 input[ type=submit] {
 	width: 50%;
 	padding: 12px 20px;
-	margin: 8px 0;
+	margin: 15px;
 	box-sizing: border-box;
 	border: none;
-	background-color:peru
+	background-color: aqua;
 }
 
 h2.bold {
@@ -205,7 +205,7 @@ p.text1 {
     margin: 10px;
 }
 .socials{
-	background-color: rgb(174, 240, 21);
+	background-color: inherit;
 }
 .media{
 	color: red;
