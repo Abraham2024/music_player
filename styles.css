@@ -201,7 +201,9 @@ p.text1 {
 	display: none;
 	color: blueviolet;
 }
-
+.message{
+    margin: 10px;
+}
 .topnav .tag {
 	color: yellowgreen;
 	text-decoration: solid;
