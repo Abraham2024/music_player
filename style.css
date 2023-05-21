@@ -173,7 +173,22 @@ button:hover {
 	top: 0;
 	display: none;
 }
-
+/* style for scrolling images*/
+.hairs1{
+	overflow: auto;
+	white-space: nowrap;
+	padding: 2px;
+}
+.hairs2{
+	overflow: auto;
+	white-space: nowrap;
+	padding: 2px;
+}
+.hair3{
+	overflow: auto;
+	white-space: nowrap;
+	padding: 2px;
+}
 /* The dots/bullets/indicators */
 .dot {
 	cursor: pointer;
