@@ -96,6 +96,79 @@ body {
 	align-items: center;
 	margin-left: 50%
 }
+#popup1 {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	max-width: 600px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	opacity: 0.9;
+}
+
+#show-popup1 {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	background-color: #ff9f43;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#close1 {
+	display: block;
+	margin-top: 20px;
+	text-align: center;
+	cursor: pointer;
+	padding: 10px 20px;
+	background-color: wheat;
+	color: black;
+	width: 100px;
+	align-items: center;
+	margin-left: 50%
+}
+
+#popup2 {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	max-width: 600px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	opacity: 0.9;
+}
+
+#show-popup2 {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	background-color: #ff9f43;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#close2 {
+	display: block;
+	margin-top: 20px;
+	text-align: center;
+	cursor: pointer;
+	padding: 10px 20px;
+	background-color: wheat;
+	color: black;
+	width: 100px;
+	align-items: center;
+	margin-left: 50%
+}
 
 .discount {
 	color: black;
