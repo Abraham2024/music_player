@@ -32,8 +32,8 @@
 
 .container {
 	text-align: center;
+	display: inline block;
 	height: 150px;
-	width: 100%;
 	background-color:bisque;
 }
 
@@ -86,8 +86,25 @@ input[ type=email] {
 	border: none;
 	border-bottom: 2px solid red;
 }
-.review{
-	animation: typing 2s steps(22) infinite, blink .3s step-end infinite;
+.typing {
+		overflow: hidden;
+	white-space: nowrap;
+	animation: typing 30s steps(30, end), 
+	blink-caret .75s step-end infinite;
+	margin: 0 auto;
+	width: 0;
+	color: red;
+	font-size: large;
+	text-transform: capitalize;
+}
+
+@keyframes typing {
+	from { 
+		width: 0;
+	}
+	to { 
+		width:100%;
+	}
 }
 input[ type=submit] {
 	width: 50%;
