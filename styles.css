@@ -86,7 +86,9 @@ input[ type=email] {
 	border: none;
 	border-bottom: 2px solid red;
 }
-
+.review{
+	animation: typing 2s steps(22) infinite, blink .3s step-end infinite;
+}
 input[ type=submit] {
 	width: 50%;
 	padding: 12px 20px;
